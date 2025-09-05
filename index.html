@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BBC Bangla</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- google font setup -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,6 +23,22 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <h1 class="">Hello</h1>
+     <header>
+        <div  class="bg-[#b80000] py-5 ">
+           <div class="w-10/12 mx-auto px-5">
+            <img class="invert" src="./logo.svg" alt="">
+           </div>
+
+        </div>
+
+        <nav class="border-b border-gray-200 h-[60px]">
+            <ul class=" w-10/12 mx-auto px-5 flex gap-4 text-lg py-4 font-bold">
+                <li class="hover:border-b-3 border-red-700 cursor-pointer">মূলপাতা</li>
+                <li class="hover:border-b-3 border-red-700 cursor-pointer">রাজনীতি</li>
+                <li class="hover:border-b-3 border-red-700 cursor-pointer">সর্বাধিক পঠিত</li>
+                
+            </ul>
+        </nav>
+     </header>
   </body>
 </html>
